@@ -1,0 +1,31 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Django
+staticfiles/
+media/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# React Native / Expo
+node_modules/
+.expo/
+dist/
+web-build/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
